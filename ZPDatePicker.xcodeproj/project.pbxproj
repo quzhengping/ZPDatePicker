@@ -13,6 +13,11 @@
 		67401258208829A3002FC61B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67401257208829A3002FC61B /* Assets.xcassets */; };
 		6740125B208829A3002FC61B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67401259208829A3002FC61B /* LaunchScreen.storyboard */; };
 		6740125E208829A3002FC61B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6740125D208829A3002FC61B /* main.m */; };
+		6740126820882AE8002FC61B /* ZPDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6740126720882AE8002FC61B /* ZPDatePicker.m */; };
+		6740126B20883841002FC61B /* ZPContailerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6740126A20883841002FC61B /* ZPContailerVC.m */; };
+		6740127E20885C18002FC61B /* ITBottomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6740127820885C18002FC61B /* ITBottomAnimation.m */; };
+		6740127F20885C18002FC61B /* ITCenterAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6740127A20885C18002FC61B /* ITCenterAnimation.m */; };
+		6740128020885C18002FC61B /* ITAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6740127C20885C18002FC61B /* ITAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,18 @@
 		6740125A208829A3002FC61B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6740125C208829A3002FC61B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6740125D208829A3002FC61B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67401265208829E8002FC61B /* ZPAppdefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPAppdefine.h; sourceTree = "<group>"; };
+		6740126620882AE8002FC61B /* ZPDatePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPDatePicker.h; sourceTree = "<group>"; };
+		6740126720882AE8002FC61B /* ZPDatePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPDatePicker.m; sourceTree = "<group>"; };
+		6740126920883841002FC61B /* ZPContailerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPContailerVC.h; sourceTree = "<group>"; };
+		6740126A20883841002FC61B /* ZPContailerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPContailerVC.m; sourceTree = "<group>"; };
+		6740127620885BAE002FC61B /* ITContainerControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITContainerControllerProtocol.h; sourceTree = "<group>"; };
+		6740127820885C18002FC61B /* ITBottomAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITBottomAnimation.m; sourceTree = "<group>"; };
+		6740127920885C18002FC61B /* ITAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITAnimation.h; sourceTree = "<group>"; };
+		6740127A20885C18002FC61B /* ITCenterAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITCenterAnimation.m; sourceTree = "<group>"; };
+		6740127B20885C18002FC61B /* ITBottomAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITBottomAnimation.h; sourceTree = "<group>"; };
+		6740127C20885C18002FC61B /* ITAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITAnimation.m; sourceTree = "<group>"; };
+		6740127D20885C18002FC61B /* ITCenterAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITCenterAnimation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +79,7 @@
 				6740124F208829A2002FC61B /* AppDelegate.m */,
 				67401251208829A2002FC61B /* ViewController.h */,
 				67401252208829A2002FC61B /* ViewController.m */,
+				67401264208829C1002FC61B /* ZPDatePicker */,
 				67401254208829A2002FC61B /* Main.storyboard */,
 				67401257208829A3002FC61B /* Assets.xcassets */,
 				67401259208829A3002FC61B /* LaunchScreen.storyboard */,
@@ -69,6 +87,33 @@
 				6740125D208829A3002FC61B /* main.m */,
 			);
 			path = ZPDatePicker;
+			sourceTree = "<group>";
+		};
+		67401264208829C1002FC61B /* ZPDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				67401265208829E8002FC61B /* ZPAppdefine.h */,
+				6740126620882AE8002FC61B /* ZPDatePicker.h */,
+				6740126720882AE8002FC61B /* ZPDatePicker.m */,
+				6740126920883841002FC61B /* ZPContailerVC.h */,
+				6740126A20883841002FC61B /* ZPContailerVC.m */,
+				6740127620885BAE002FC61B /* ITContainerControllerProtocol.h */,
+				6740127720885C18002FC61B /* Model */,
+			);
+			path = ZPDatePicker;
+			sourceTree = "<group>";
+		};
+		6740127720885C18002FC61B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6740127920885C18002FC61B /* ITAnimation.h */,
+				6740127C20885C18002FC61B /* ITAnimation.m */,
+				6740127B20885C18002FC61B /* ITBottomAnimation.h */,
+				6740127820885C18002FC61B /* ITBottomAnimation.m */,
+				6740127D20885C18002FC61B /* ITCenterAnimation.h */,
+				6740127A20885C18002FC61B /* ITCenterAnimation.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +187,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				67401253208829A2002FC61B /* ViewController.m in Sources */,
+				6740126B20883841002FC61B /* ZPContailerVC.m in Sources */,
+				6740127E20885C18002FC61B /* ITBottomAnimation.m in Sources */,
 				6740125E208829A3002FC61B /* main.m in Sources */,
 				67401250208829A2002FC61B /* AppDelegate.m in Sources */,
+				6740128020885C18002FC61B /* ITAnimation.m in Sources */,
+				6740127F20885C18002FC61B /* ITCenterAnimation.m in Sources */,
+				6740126820882AE8002FC61B /* ZPDatePicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
